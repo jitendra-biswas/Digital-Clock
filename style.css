@@ -15,6 +15,7 @@
 body{
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .main{
@@ -23,7 +24,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #252947;
+    background-color: #222738;
+    overflow: hidden;
 }
 
 .clock{
@@ -34,7 +36,7 @@ body{
     justify-content: center;
     background-color: #222738;
     border-radius: 10px;
-    box-shadow:0px 10px 30px rgb(38, 33, 73);
+    box-shadow:0px 10px 30px rgb(22, 21, 31);
 }
 
 .part1{
@@ -82,7 +84,7 @@ span{
     color:#fff;
 }
 
-@media (max-width:700px) {
+@media (max-width:850px) {
     .clock{
         width: 100vw;
         height: 100vh;
